@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(https://jooinn.com/images/blur-restaurant-3.png);
+  background-image: url(blur-restaurant-3.png);
 }
 
 header {
@@ -121,8 +121,7 @@ img {
 }
 
 .copyright {
-  margin-top: 43px;
-  padding: 20px 0px;
+  padding: 20px 0;
   background-color: #23262d;
 }
 
@@ -150,4 +149,188 @@ img {
   display: block;
   height: 30px;
   width: 30px;
+}
+
+.popup,
+.popup2,
+.popup3,
+.popup4,
+.popup5,
+.popup6,
+.popup7,
+.popup8 {
+  width: 700px;
+  height: 700px;
+  background: #e7dfdf;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.3s, top 0.3s;
+  border: black;
+  border-style: solid;
+}
+
+
+.open-popup2,
+.open-popup3,
+.open-popup4{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.open-popup5,
+.open-popup6,
+.open-popup7,
+.open-popup8{
+  visibility: visible;
+  top: 750px;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img,
+.popup2 img,
+.popup3 img,
+.popup4 img,
+.popup5 img,
+.popup6 img,
+.popup7 img,
+.popup8 img{
+  margin-top: 50px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 3px;
+}
+
+.popup h2,
+.popup2 h2,
+.popup3 h2,
+.popup4 h2,
+.popup5 h2,
+.popup6 h2,
+.popup7 h2,
+.popup8 h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.popup button,
+.popup2 button,
+.popup3 button,
+.popup4 button,
+.popup5 button,
+.popup6 button,
+.popup7 button,
+.popup8 button{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+span {
+  font-weight: bold;
+}
+
+.login {
+  width: 700px;
+  height: 700px;
+  background: #e7dfdf;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.3s, top 0.3s;
+  border: black;
+  border-style: solid;
+}
+
+.open-login{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.Emal,
+.pass {
+  border-radius: 12px;
+  width: 413px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-color: white;
+  outline: none;
+  border-style: solid;
+  background-color: aquamarine;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.sb {
+  border-radius: 12px;
+  border-style: solid;
+  width: 190px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(39, 39, 210);
+  color: white;
+  border-style: none;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 18px;
+}
+
+.sb:hover {
+  background-color: rgb(129, 121, 185);
+  color: blue;
+  border-style: none;
+}
+
+.sb:active {
+  opacity: 0.7;
+  border-style: none;
+}
+
+.containeer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.log {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.link {
+  color: rgb(0, 0, 0);
+}
+
+.link:hover{
+  color: red;
 }
